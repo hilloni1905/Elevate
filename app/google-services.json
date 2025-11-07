@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "672475812795",
+    "project_id": "final2-2c5d4",
+    "storage_bucket": "final2-2c5d4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672475812795:android:60fc02e9658b50f21fea9e",
+        "android_client_info": {
+          "package_name": "com.unified.healthfitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZPLfNR5p8fc9hgVaB_Kuz93A51C7asu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

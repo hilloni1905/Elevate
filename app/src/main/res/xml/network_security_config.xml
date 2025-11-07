@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow cleartext (HTTP) traffic for exercise GIFs -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">exercisedb.p.rapidapi.com</domain>
+        <domain includeSubdomains="true">v2.exercisedb.io</domain>
+        <domain includeSubdomains="true">exercisedb-api.vercel.app</domain>
+    </domain-config>
+
+    <!-- Default HTTPS for everything else -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

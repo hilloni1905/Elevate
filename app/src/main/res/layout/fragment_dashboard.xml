@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".DashboardFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Main Goal Card -->
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.App.Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <com.google.android.material.progressindicator.CircularProgressIndicator
+                    android:id="@+id/steps_progress"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:indicatorSize="200dp"
+                    app:trackThickness="18dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintDimensionRatio="1:1" />
+
+                <TextView
+                    android:id="@+id/steps_text"
+                    style="@style/Widget.App.CardData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="36sp"
+                    app:layout_constraintVertical_chainStyle="packed"
+                    app:layout_constraintTop_toTopOf="@id/steps_progress"
+                    app:layout_constraintBottom_toTopOf="@id/steps_label"
+                    app:layout_constraintStart_toStartOf="@id/steps_progress"
+                    app:layout_constraintEnd_toEndOf="@id/steps_progress"
+                    tools:text="2,625" />
+
+                <TextView
+                    android:id="@+id/steps_label"
+                    style="@style/Widget.App.CardTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/steps_text"
+                    app:layout_constraintBottom_toBottomOf="@id/steps_progress"
+                    app:layout_constraintStart_toStartOf="@id/steps_progress"
+                    app:layout_constraintEnd_toEndOf="@id/steps_progress"
+                    tools:text="of 5,000" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Secondary Stats Grid -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:columnCount="2"
+            android:rowCount="2">
+
+            <!-- Distance -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.App.Card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.App.CardContent">
+                    <ImageView style="@style/Widget.App.CardIcon" android:src="@android:drawable/ic_menu_mapmode" />
+                    <TextView style="@style/Widget.App.CardTitle" android:text="@string/distance_label" />
+                    <TextView android:id="@+id/distance_text" style="@style/Widget.App.CardData" tools:text="1.8 km" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Calories -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.App.Card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.App.CardContent">
+                    <ImageView style="@style/Widget.App.CardIcon" android:src="@android:drawable/ic_menu_today" />
+                    <TextView style="@style/Widget.App.CardTitle" android:text="@string/calories_label" />
+                    <TextView android:id="@+id/calories_text" style="@style/Widget.App.CardData" tools:text="90 kcal" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Streak -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.App.Card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.App.CardContent">
+                    <ImageView style="@style/Widget.App.CardIcon" android:src="@android:drawable/star_on" />
+                    <TextView style="@style/Widget.App.CardTitle" android:text="Streak" />
+                    <TextView android:id="@+id/streak_text" style="@style/Widget.App.CardData" tools:text="3 Days" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Level -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.App.Card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.App.CardContent">
+                    <ImageView style="@style/Widget.App.CardIcon" android:src="@android:drawable/ic_menu_upload" />
+                    <TextView style="@style/Widget.App.CardTitle" android:text="Level" />
+                    <TextView android:id="@+id/level_text" style="@style/Widget.App.CardData" tools:text="3" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </GridLayout>
+
+        <!-- Motivational Quote Card -->
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.App.Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/motivational_quote_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="24dp"
+                android:textAlignment="center"
+                android:textAppearance="?attr/textAppearanceBody1"
+                android:textStyle="italic"
+                tools:text="&quot;The journey of a thousand miles begins with a single step.&quot;" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</ScrollView>

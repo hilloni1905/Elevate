@@ -1,0 +1,98 @@
+<resources>
+    <string name="next">Next</string>
+    <string name="diet_image">Diet image</string>
+    <!-- Greetings -->
+    <string name="greeting_text">Hi, Hilloni 👋</string>
+
+    <!-- AI Assistant -->
+    <string name="ai_assistant_title">💬 AI Fitness Coach</string>
+    <string name="ai_assistant_message">Hi Hilloni! You hit 85% of your weekly goal. Keep it up! 💪</string>
+    <string name="btn_ask_assistant">Ask a Question</string>
+
+    <!-- Cards -->
+    <string name="steps_card">Steps</string>
+    <string name="calories_burned_card">Calories Burned</string>
+    <string name="calories_consumed_card">Calories Consumed</string>
+    <string name="water_card">Water</string>
+    <string name="sleep_card">Sleep</string>
+    <string name="mood_card">Mood</string>
+    <string name="app_name">ElevAIte</string>
+    <string name="mic">Microphone</string>
+    <string name="send">Send</string>
+    <string name="enter_your_prompt_here">Enter your prompt here</string>
+    <string name="response">Response will be displayed here!\n</string>
+    <string name="field_cannot_be_empty">Field cannot be empty</string>
+    <string-array name="cycle_options">
+        <item>3 cycles (~4.5 hrs)</item>
+        <item>4 cycles (~6 hrs)</item>
+        <item>5 cycles (~7.5 hrs)</item>
+        <item>6 cycles (~9 hrs)</item>
+    </string-array>
+    <string-array name="activity_levels">
+        <item>Sedentary (little or no exercise)</item>
+        <item>Lightly active (light exercise/sports 1–3 days/week)</item>
+        <item>Moderately active (moderate exercise/sports 3–5 days/week)</item>
+        <item>Very active (hard exercise/sports 6–7 days/week)</item>
+        <item>Extra active (very hard exercise/sports &amp; a physical job)</item>
+    </string-array>
+    <string name="goal_text">Goal: %1$d ml</string>
+    <string name="water_text">Water: %1$d ml</string>
+    <string name="reminder_text">Reminder set for %1$d:%2$02d</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="enter_goal_in_ml">Enter goal in ml</string>
+    <!--  Spotify Login Screen  -->
+    <string name="login_title">Music Player</string>
+    <string name="login_subtitle">Connect with Spotify to discover\nworkout playlists</string>
+    <string name="btn_login">Connect with Spotify</string>
+    <!--  Playlist Screen  -->
+    <string name="playlist_title">Workout Playlists</string>
+    <string name="empty_state">No playlists found.\nTry a different search.</string>
+    <string name="error_loading">Error loading playlists</string>
+    <!--  Menu  -->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_logout">Logout</string>
+    <!--  Common  -->
+    <string name="loading">Loading…</string>
+    <string name="track_count">%d tracks</string>
+    <!--  Main Activity  -->
+    <string name="question_text">Question</string>
+    <string name="progress_format">%1$d / %2$d</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_previous">Previous</string>
+    <string name="btn_finish">Finish</string>
+    <string name="select_option_warning">Please select an option</string>
+    <string name="exit_quiz_title">Exit Quiz</string>
+    <string name="exit_quiz_message">Are you sure you want to exit? Your progress will be lost.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <!--  Result Activity  -->
+    <string name="assessment_complete">Assessment Complete!</string>
+    <string name="your_profile">Your Profile: %s Type</string>
+    <string name="diet_plan_title">Diet Plan</string>
+    <string name="workout_plan_title">Workout Plan</string>
+    <string name="success_tips_title">Success Tips</string>
+    <string name="btn_view_plan">View Detailed Plan</string>
+    <string name="btn_restart">Retake Assessment</string>
+    <!--  Detailed Plan Activity  -->
+    <string name="personalized_plan_title">Your Personalized Plan</string>
+    <string name="weekly_schedule">📅 Weekly Workout Schedule</string>
+    <string name="nutrition_guide">🍽️ Nutrition Guide</string>
+    <string name="supplement_recommendations">💊 Supplement Recommendations</string>
+    <string name="disclaimer_title">⚠️ Important Disclaimer</string>
+    <string name="disclaimer_text">This plan is for informational purposes only and should not replace professional medical advice. Always consult with a healthcare provider or certified fitness professional before starting any new diet or exercise program.</string>
+    <!--  Categories  -->
+    <string name="category_physical">Physical</string>
+    <string name="category_balanced">Balanced</string>
+    <string name="category_emotional">Emotional</string>
+    <string name="category_social">Social</string>
+    <string name="add_alarm">Add Alarm</string>
+    <string name="save">Save</string>
+    <string name="edit_alarm">Edit alarm</string>
+    <string name="distance_label">Distance</string>
+    <string name="calories_label">Calories</string>
+    <string name="completed_achievement">Completed!</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_achievements">Achievements</string>
+    <string name="nav_statistics">Statistics</string>
+</resources>

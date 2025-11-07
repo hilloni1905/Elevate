@@ -1,0 +1,18 @@
+<!-- item_ingredient.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <TextView
+        android:id="@+id/ingredientText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredient item"
+        android:textSize="14sp"
+        android:textColor="#2C3E50"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
+</LinearLayout>

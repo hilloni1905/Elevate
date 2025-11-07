@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Material Design Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="purple_400">#A855F7</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Additional UI Colors -->
+    <color name="background">#FFFFFF</color>
+    <color name="cardBackground">#F5F5F5</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+
+        <!-- Primary Colors -->
+        <color name="primary">#6200EE</color>
+        <color name="primary_dark">#3700B3</color>
+        <color name="accent">#03DAC5</color>
+
+        <!-- Background Colors -->
+        <color name="background_light">#F5F5F5</color>
+        <color name="background_white">#FFFFFF</color>
+
+        <!-- Text Colors -->
+        <color name="text_primary">#212121</color>
+        <color name="text_secondary">#757575</color>
+        <color name="text_hint">#BDBDBD</color>
+
+        <!-- Gradient Colors -->
+        <color name="purple_start">#8B5CF6</color>
+        <color name="purple_end">#6D28D9</color>
+
+        <color name="green_start">#10B981</color>
+        <color name="green_end">#059669</color>
+
+        <color name="orange_start">#F59E0B</color>
+        <color name="orange_end">#D97706</color>
+
+        <color name="red_start">#EF4444</color>
+        <color name="red_end">#DC2626</color>
+
+        <color name="blue_start">#3B82F6</color>
+        <color name="blue_end">#2563EB</color>
+
+        <color name="indigo_start">#6366F1</color>
+        <color name="indigo_end">#4F46E5</color>
+
+        <color name="teal_start">#14B8A6</color>
+        <color name="teal_end">#0D9488</color>
+
+        <color name="pink_start">#EC4899</color>
+        <color name="pink_end">#DB2777</color>
+
+        <color name="cyan_start">#06B6D4</color>
+        <color name="cyan_end">#0891B2</color>
+    <color name="gray">#808080</color>
+    <color name="colorText">#212121</color>
+    <color name="gold">#FFD700</color>
+    <color name="colorBackground">#F0F0F0</color>
+    <!--  Spotify Brand Color  -->
+    <color name="spotify_green">#1DB954</color>
+    <color name="spotify_green_dark">#1AA34A</color>
+    <!--  Status Colors  -->
+    <color name="error">#F44336</color>
+    <color name="success">#4CAF50</color>
+    <!--  Category Colors  -->
+    <color name="physical_color">#FF6B6B</color>
+    <color name="balanced_color">#4ECDC4</color>
+    <color name="emotional_color">#FFE66D</color>
+    <color name="social_color">#95E1D3</color>
+    <!--  Status Colors  -->
+    <color name="warning">#FF9800</color>
+    <color name="info">#2196F3</color>
+    <color name="window_background">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    <!--  New Colors  -->
+    <color name="primary_success">#4CAF50</color>
+    <color name="secondary_progress">#A5D6A7</color>
+    <color name="alert_down_trends">#E57373</color>
+    <color name="accent_warning">#FFC107</color>
+    <color name="accent_error">#D32F2F</color>
+    <color name="text_tertiary">#BDBDBD</color>
+    <color name="primary_light">#E3F2FD</color>
+    <!--  Bottom navigation color selector  -->
+    <color name="bottom_nav_selected">#C084FC</color>
+    <color name="bottom_nav_unselected">#D1D5DB</color>
+
+</resources>

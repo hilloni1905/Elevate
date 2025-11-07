@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/goalMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎉 You reached your daily water goal!"
+        android:textColor="@color/colorText"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/goalDoneBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimaryDark"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"/>
+
+</LinearLayout>
