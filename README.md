@@ -60,5 +60,18 @@ From managing your workouts and sleep to tracking your calories and hydration �
   <img width="250" height="500" alt="Screenshot_20251105_171405" src="https://github.com/user-attachments/assets/902344a0-879b-41c7-be49-a18c2a1cb811" />
 </p>
 
-Example:
+## 🧑‍💻 Developer Team
+
+## 👩‍💻 Developed by:
+
+Hilloni Shah
+
+Sachi Desai
+
+Harsh Tanna
+
+Aayush Gala
+
+Jash Ladhani
+
 
