@@ -62,8 +62,6 @@ From managing your workouts and sleep to tracking your calories and hydration �
 
 ## 🧑‍💻 Developer Team
 
-## 👩‍💻 Developed by:
-
 Hilloni Shah
 
 Sachi Desai
